@@ -1,0 +1,286 @@
+.pay-bill-container{
+  width: 280px;
+  margin: 50px;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
+}
+
+.pay-bill-container h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pay-bill-container h2{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.pay-bill-container input{
+    margin-bottom: 15px;
+}
+
+.pay-bill-container input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+
+  .pay-bill-container input[type=number] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+
+.deposit-button {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    
+    background: #207cca; /* Old browsers */
+    background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #207cca 0%,#9f58a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+  }
+  
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    font-family: Roboto,system-ui;
+    color: #44475b;
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+
+    /* Header Style Start */
+
+
+
+  /* Currency Box Style Start */
+
+  .currency-box  {
+      width: 1110px;
+      height: 60px;
+      margin: auto;
+      position: relative;
+      right: 2.5rem;
+      top: 2.5rem;
+      display: flex;
+      flex-direction: row;
+      gap: 5rem;
+      
+  }
+
+  /* Balance Container Style Start  */
+  .balance-cont {
+      width: 678px;
+      height: 590px;
+      margin: auto;
+      position: relative;
+      bottom: 32.5rem;
+      left: 50rem;
+      box-shadow: 0 1px 7px 0;
+  }
+
+  
+
+  .balance-box {
+    width: 678px;
+    height: 170px;
+    margin: auto;
+    background: #e5faf5;
+    box-shadow: 0 1px 2px 0;
+
+}
+
+  .add-money-container {
+      width: 358px;
+      height: 378px;
+      box-shadow: 0 1px 7px 0;
+      position: absolute;
+        top: 50px;
+        left:170px;
+        right: 60px;
+        bottom: 50px;
+  }
+  .details-box {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     padding: 2rem
+  }
+  .details-box span {
+      display: flex;
+      position: relative;
+      bottom: 1.4rem;
+      left: 15rem;
+      justify-content: space-around;
+  }
+  .ot{
+    margin-top: -3rem;
+    padding-bottom: -10rem;
+    padding-top: -10rem;
+
+  }
+  .ba {
+    margin-top: -3rem;
+
+  }
+  
+
+  .ot > p ,
+  .cb > p,
+  .ba > p   
+  {
+    display: flex;
+    justify-content: space-around;
+    /* color: blue; */
+    position: relative;
+    bottom: 3.7rem;
+    left: 17rem;
+  }
+
+  .add-money__box {
+      display: flex;
+      gap: 2rem;
+      cursor: pointer;
+      padding: 1rem;
+      text-transform: uppercase;
+  }
+
+  .deposit-options {
+      padding: 1rem;
+      /* margin-left: 1px;; */
+  }
+  #money, #withdraw-money {
+      margin-left: 6.2rem;
+      width: 100px;
+  }
+  .money-options {
+      /* color: red; */
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 2rem;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+
+  .deposit-button   {
+      width: 315px;
+      height: 45px;
+      margin-top: 2rem;
+      cursor: pointer;
+
+  }
+
+  .pay-options {
+    margin-top: 3rem;
+
+  }
+  .pay-options__image {
+      display: flex;
+      /* flex-direction: row; */
+      margin-right: 6rem;
+      justify-content: space-evenly;
+  }
+  .pay-input-field input {
+      width: 120%;
+      height: 21px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid #00d09c;
+      margin-left: 2rem;
+      margin-bottom: 0.5rem;
+      
+  }
+  .pay-input-field input:focus {
+    outline: none;
+  }
+  .pay-input-field  div {
+      margin-left: 2rem;
+      font-size: 12px;
+
+  }
+
+  /* Deposit Options Style End */
+
+  /* Withdraw Options Style Start  */
+.withdraw-options {
+    position: relative;
+    bottom: 20rem;
+    padding: 1rem;
+}
+.withdrawable {
+    display: flex;
+    justify-content: space-between;
+}
+.faq {
+    width: 15px;
+    height: 20px;
+    background: grey;
+    border-radius: 50%;
+    margin-right: 9rem;
+    margin-left: 1rem;
+}
+.show-total__amount {
+    margin-right: 3rem;
+    margin-left: 2rem;
+    display: flex;
+}
+#withdraw-money {
+    margin: 2rem  0 1rem 7.2rem;
+
+}
+.withdraw-all {
+    color: blue;
+    margin: 1rem 0 0 13rem;
+    color: #00d09c;
+}
+#withdraw-all__checkbox {
+    border: 5px solid red;
+    cursor: pointer;
+}
+
+.withdraw-money {
+    width: 15px;
+    padding-left: 10px;
+}
+.withdraw-money__button {
+    width: 315px;
+    height: 45px;
+    margin-top: 6rem;
+    margin-left: 8px;
+    cursor: pointer;
+
+  }
+
+  /* Dark Mode Style Style Start  */
+  .dark-mode {
+    background: black;
+    color: white !important;
+}
+
+.darkModeOn {
+    color: red;
+}
+
+  /* Dark Mode Style Style End  */

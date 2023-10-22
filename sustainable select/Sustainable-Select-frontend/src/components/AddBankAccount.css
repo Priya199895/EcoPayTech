@@ -1,0 +1,185 @@
+body {
+    background: url('../images/img2acc.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #0b0202;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    h1 {
+        font-size: 36px;
+        color: #007bff;
+    }
+    p {
+        color: #007bff;
+    }
+  }
+  
+  .wallet-details {
+    margin-top: 30px;
+  
+    h2 {
+        font-size: 28px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+  
+    .personal-details, .account-form {
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+  
+        h2 {
+            font-size: 20px;
+            color: #000;
+        }
+  
+        p {
+            color: #000;
+            margin: 5px 0;
+        }
+    }
+  
+    .account-form {
+        form {
+            button {
+                margin-top: 15px;
+            }
+        }
+    }
+  
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+  }
+  
+  .contact-card {
+    margin-top: 30px;
+    h4 {
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    .card {
+        background: #007bff;
+        border: none;
+        border-radius: 10px;
+    }
+    .card-title {
+        color: #fff;
+    }
+    .card-text {
+        color: #000000;
+    }
+    .btn-info {
+        background-color: #00a2d1;
+        border-color: #00a2d1;
+        color: #fff;
+    }
+  }
+  
+  input {
+    background: linear-gradient(to bottom, #F6D365, #FFA06D);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background: linear-gradient(to bottom, #7b4397, #dc2430);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact-card {
+   
+        margin-top: 30px;
+    
+        h4 {
+            font-size: 20px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+    
+        .card {
+            background: linear-gradient(to bottom, #007bff, #00a2d1);
+            border: none;
+            border-radius: 20px; /* Rounded edges */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+    
+        .card-title {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    
+        .card-text {
+            color: #000000;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    
+        .btn-info {
+            background: linear-gradient(to bottom, #1e88e5, #1976d2); /* Stylish fintech button */
+            border-color: #1976d2;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 30px; /* Round button edges */
+            margin-top: 10px;
+            display: inline-block;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+    
+        .btn-info:hover {
+            background: linear-gradient(to bottom, #1976d2, #1e88e5);
+            border-color: #1e88e5;
+        }
+    
+        .shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    
+        .circle {
+            width: 200px;
+            height: 200px;
+            background: #1e88e5;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: -50px;
+        }
+    }
+    .c-details span {
+        font-weight: 300;
+        font-size: 13px
+    }
+  

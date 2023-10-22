@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c6a561e.css",
+    "main.js": "/static/js/main.516d01ae.js",
+    "static/media/7.jpg": "/static/media/7.9597804b9785a7ff67ae.jpg",
+    "static/media/prod9.jpg": "/static/media/prod9.9e75d1738ae4c93b0e2a.jpg",
+    "static/media/prod3.jpg": "/static/media/prod3.17daea4af2feb6c36d53.jpg",
+    "static/media/2.png": "/static/media/2.bf1ded6981857a0e571e.png",
+    "static/media/prod2.jpg": "/static/media/prod2.ee27e513b6a56c57967d.jpg",
+    "static/media/1.png": "/static/media/1.4d17ec9608c132450cbc.png",
+    "static/media/prod13.jpg": "/static/media/prod13.3b34a46d33fe26c4a50b.jpg",
+    "static/media/prod7.jpg": "/static/media/prod7.585af2f864f24bf4da61.jpg",
+    "static/media/4.png": "/static/media/4.7a0bba0fd78c3050cb63.png",
+    "static/media/prod10.jpg": "/static/media/prod10.bdf5f6b213bd0ba7c289.jpg",
+    "static/media/prod1.jpg": "/static/media/prod1.cdb72bf7270585e77022.jpg",
+    "static/media/prod6.jpg": "/static/media/prod6.81b9ba2a57f5ce6cfda6.jpg",
+    "static/media/prod4.jpg": "/static/media/prod4.932badfe3e924ea247de.jpg",
+    "static/media/6.png": "/static/media/6.adb7da6ed49fc227efd2.png",
+    "static/media/5.png": "/static/media/5.1a6b2a7dbf31a382a5ad.png",
+    "static/media/3.png": "/static/media/3.6a7b21318369af44e317.png",
+    "static/media/prod8.jpg": "/static/media/prod8.678ea5706890909781fa.jpg",
+    "static/media/prod12.jpg": "/static/media/prod12.595cc53da0fdfed2500e.jpg",
+    "static/media/prod5.jpg": "/static/media/prod5.c4a0183c613eb2250bc0.jpg",
+    "static/media/prod11.jpg": "/static/media/prod11.44312217fcf0b0b1c26b.jpg",
+    "static/media/step1.png": "/static/media/step1.e812f4bbea363cb2cf58.png",
+    "static/media/step2.png": "/static/media/step2.f50abedb55c626013882.png",
+    "static/media/step3.png": "/static/media/step3.d1dfde3b602f830ff9da.png",
+    "static/media/step4.png": "/static/media/step4.1b72702b79fcaefc39fd.png",
+    "static/media/logo.png": "/static/media/logo.e8d56d7d50b9059cb1db.png",
+    "static/media/kl1.png": "/static/media/kl1.a6db5f3f7812cd8fb737.png",
+    "static/media/step5.png": "/static/media/step5.354e53c16c442d9ac12d.png",
+    "static/media/EcoPay-logo.jpg": "/static/media/EcoPay-logo.5a61922f16b72e2f4ee9.jpg",
+    "static/media/day1.png": "/static/media/day1.0a32bfc86dd7ceee488d.png",
+    "static/media/CarbonSenseLogo.png": "/static/media/CarbonSenseLogo.85310c8c65fdd30da6c5.png",
+    "index.html": "/index.html",
+    "main.5c6a561e.css.map": "/static/css/main.5c6a561e.css.map",
+    "main.516d01ae.js.map": "/static/js/main.516d01ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c6a561e.css",
+    "static/js/main.516d01ae.js"
+  ]
+}
