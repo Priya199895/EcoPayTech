@@ -7,8 +7,9 @@ const AddBankAccount = ({userId}) => {
   userId ="65316df470d14d00113e3ae0";
   const [accountNumber, setAccountNumber] = useState('');
   const [bankName, setBankName] = useState('');
-
+    const[sucvalue] = useState('');
   const handleAddAccount = async () => {
+    
   };
 
   return (

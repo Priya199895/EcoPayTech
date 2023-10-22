@@ -6,7 +6,7 @@ const NewHome = () => {
 
   return (
     <div>
-        <MainNavBar/>
+        
         <Stocks/> 
     </div>
   );

@@ -12,7 +12,7 @@ const Stocks = () => {
         <div>
             <div className="row">
           <div className="column">
-            <h1>An All in One App</h1>
+            <h1>Redefining Finance for a better Earth</h1>
      <p className="p1">Start investing in stocks with our app</p>
      <p>claim reward points</p> <p> envail discounts</p>
      <img className="img1"

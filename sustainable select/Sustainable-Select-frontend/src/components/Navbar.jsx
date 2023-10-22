@@ -17,7 +17,6 @@ const Navbar = () => {
 
         <div className="header-text-wrapper">
           <h1 className="header-text">EcoShop</h1>
-          <p className="sub-header-text">by Ecopoints</p>
         </div>
       </div>
       <div className="nav-links">
