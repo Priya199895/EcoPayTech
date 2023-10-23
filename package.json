@@ -10,7 +10,7 @@
     "serve-static": "^1.15.0",
     "stripe": "^12.11.0"
   },
-  "name": "sustainable-select-backend",
+  "name": "Collabathon-FutureFintech",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
