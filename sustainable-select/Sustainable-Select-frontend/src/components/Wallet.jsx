@@ -23,7 +23,7 @@ const Wallet = ({ userId }) => {
   const handleTopUp = async () => {
     try {
       console.log(topUpAmount);
-      await axios.post(`http://localhost:5000/api/wallets/wallet/topup/${userId}`, { 
+      await axios.post(`https://test-deploy-backend-1fc4.onrender.com/api/wallets/wallet/topup/${userId}`, { 
         amount: parseInt(topUpAmount) 
       });
       fetchWalletBalance(); // Refresh the wallet balance after top-up
