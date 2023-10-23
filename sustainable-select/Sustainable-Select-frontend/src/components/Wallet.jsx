@@ -13,7 +13,7 @@ const Wallet = ({ userId }) => {
     try {
       console.log('inifonafin');
         console.log(userId);
-      const response = await axios.get(`http://localhost:5000/api/wallets/wallet/${userId}`);
+      const response = await axios.get(`https://test-deploy-backend-1fc4.onrender.com/api/wallets/wallet/${userId}`);
       setBalance(response.data.balance);
     } catch (error) {
       console.error('Error fetching wallet balance:', error);
