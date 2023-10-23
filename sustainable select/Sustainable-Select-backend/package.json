@@ -14,10 +14,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npm start",
-    "build": "npm build",
-    "test": "npm test",
-    "eject": "npm eject"
+    "install-server": "cd Sustainable-Select-backend && npm install",
+    "start-server": "cd Sustainable-Select-backend && node index.js",
+    "install-client": "cd Sustainable-Select-frontend && npm install",
+    "build-client": "cd Sustainable-Select-frontend && npm run build",
+    "start-client": "cd Sustainable-Select-frontend && npm run start"
   },
   "keywords": [],
   "author": "",
