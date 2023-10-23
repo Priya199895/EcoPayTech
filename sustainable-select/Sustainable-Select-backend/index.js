@@ -9,6 +9,9 @@ app.get("/api",(req,res)=>{
 
 // middlewares
 app.use(express.json());
+const corsOptions = {
+    origin: "https://frontend-collabathon.onrender.com", // frontend URI (ReactJS)
+}
 app.use(cors());
 
 //routes
